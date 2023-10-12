@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3">
+  <module_designs>
+    <module_design id="itop-portal" xsi:type="portal">
+      <properties>
+        <themes>
+          <theme id="bootstrap" _delta="define_if_not_exists">bootstrap-theme-superhero.min</theme>
+        </themes>
+        <theme id="fullmoon">
+          <stylesheet id="fullmoon">../css/backoffice/main.scss</stylesheet>
+          <variables>
+            <variable id="ibo-body-text-color" _delta="define">purple</variable>
+            <variable id="ibo-hyperlink-color" _delta="define">purple</variable>
+            
+
+            <variable id="ibo-page-banner--background-color" _delta="define">#8E8F9E</variable>
+            <variable id="ibo-page-banner--text-color" _delta="define">#8E8F9E</variable>
+
+            <variable id="ibo-color-primary-100" _delta="define">$ibo-color-blue-100</variable>
+            <variable id="ibo-color-primary-200" _delta="define">$ibo-color-blue-100</variable>
+            <variable id="ibo-color-primary-300" _delta="define">$ibo-color-blue-300</variable>
+            <variable id="ibo-color-primary-400" _delta="define">$ibo-color-blue-400</variable>
+            <variable id="ibo-color-primary-500" _delta="define">$ibo-color-blue-500</variable>
+            <variable id="ibo-color-primary-600" _delta="define">$ibo-color-blue-500</variable>
+            <variable id="ibo-color-primary-700" _delta="define">$ibo-color-blue-600</variable>
+            <variable id="ibo-color-primary-800" _delta="define">$ibo-color-blue-800</variable>
+            <variable id="ibo-color-primary-900" _delta="define">$ibo-color-blue-900</variable>
+            
+          </variables>
+      </theme>
+      </properties>
+    </module_design>
+  </module_designs>
+</itop_design>
