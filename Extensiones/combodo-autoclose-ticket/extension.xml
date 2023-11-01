@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-autoclose-ticket</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Denis]]></author>
+	<label><![CDATA[Autoclose Ticket]]></label>
+	<description><![CDATA[Automatically close resolved User Request and Incident tickets]]></description>
+	<version>1.0.1</version>
+	<release_date>2016-08-10</release_date>
+	<version_description><![CDATA[Performance optimization: do not load all the columns of the tickets in the query.]]></version_description>
+	<itop_version_min></itop_version_min>
+	<status></status>
+	<mandatory>false</mandatory>
+	<more_info_url></more_info_url>
+</extension>
