@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-sla-considering-business-hours</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Stephen]]></author>
+	<label><![CDATA[SLA considering business hours]]></label>
+	<description><![CDATA[Compute SLAs taking into account service coverage window and holidays]]></description>
+	<version>2.3.0</version>
+	<modules type="array">
+		<module>
+			<id>combodo-sla-computation</id>
+			<version>tags/2.4.0</version>
+		</module>
+		<module>
+			<id>combodo-coverage-windows-computation</id>
+			<version>tags/2.0.7</version>
+		</module>
+	</modules>
+	<release_date>2021-08-06</release_date>
+	<version_description><![CDATA[
+                * Add iTop 3.0 compatibility
+            ]]></version_description>
+	<itop_version_min>2.0.2</itop_version_min>
+	<status>stable</status>
+	<mandatory>false</mandatory>
+	<more_info_url></more_info_url>
+</extension>

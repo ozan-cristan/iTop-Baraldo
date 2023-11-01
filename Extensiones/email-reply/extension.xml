@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-send-updates-by-email</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Anne-Catherine]]></author>
+	<label><![CDATA[Send updates by email]]></label>
+	<description><![CDATA[Send an email to pre-configured contacts when a ticket log is updated]]></description>
+	<version>1.3.2</version>
+	<modules type="array">
+		<module>
+			<id>email-reply</id>
+			<version>tags/1.4.1</version>
+		</module>
+	</modules>
+	<release_date>2021-09-02</release_date>
+	<version_description><![CDATA[Remove deprecated function]]></version_description>
+	<itop_version_min>2.0.3</itop_version_min>
+	<status>stable</status>
+	<mandatory>false</mandatory>
+	<more_info_url></more_info_url>
+</extension>

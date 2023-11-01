@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>itop-assign-to-me</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Christophe]]></author>
+	<label><![CDATA[iTop Assign to Me]]></label>
+	<description><![CDATA[Assign the ticket to the user currently modifying it]]></description>
+	<version>0.1.3</version>
+	<modules type="array">
+		<module>
+			<id>itop-assign-to-me</id>
+			<version>tags/0.1.3</version>
+		</module>
+	</modules>
+	<release_date>2021-04-29</release_date>
+	<version_description><![CDATA[ * See Wiki at https://www.itophub.io/wiki/page?id=extensions%3Aassign_to_me
+      ]]></version_description>
+	<itop_version_min></itop_version_min>
+	<status></status>
+	<mandatory>false</mandatory>
+	<more_info_url></more_info_url>
+</extension>
